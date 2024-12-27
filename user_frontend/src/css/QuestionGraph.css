@@ -1,0 +1,26 @@
+.allq-container{
+    padding: 5%;
+    margin: 5%;
+}
+
+.allq-container .card-header{
+    color: #fff;
+    background: rgb(57, 57, 177);
+}
+.allq-container .card{
+    border: 2px solid rgb(57, 57, 177);
+}
+.allq-container .card-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .allq-container .card{
+       margin-top: 12%;
+    }
+
+
+}

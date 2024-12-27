@@ -1,0 +1,67 @@
+.home-container1 {
+  margin-top: 15%;
+  height: 100vh;
+}
+
+.home-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.itag-color {
+  color: rgb(48, 147, 137);
+}
+
+.logo-img img {
+  width: 350px;
+  max-height: 250px;
+  box-shadow: 14px 14px 15px rgba(0, 0, 0, 0.1);
+}
+
+.two-buttons {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.two-buttons a {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* Adjust styles for screens with a minimum width of 600px */
+  .home-title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+
+  /* Adjust styles for screens with a minimum width of 768px */
+  .home-container {
+    padding: 20%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* Adjust styles for screens with a minimum width of 768px */
+  .home-container {
+    padding: 5%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  /* Adjust styles for screens with a minimum width of 1200px */
+  .home-container {
+    padding: 8%;
+  }
+}

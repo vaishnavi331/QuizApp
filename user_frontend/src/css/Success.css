@@ -1,0 +1,77 @@
+
+
+/* Common styles for all screen sizes */
+.success-container {
+    padding: 5%;
+    margin: 5%;
+}
+.success-container .card-header {
+    color: #fff;
+    background: rgb(57, 57, 177);
+}
+.success-container .card {
+    border: 2px solid rgb(57, 57, 177);
+}
+.success-container .card-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.obtained-marks {
+    color: rgb(57, 57, 177);
+}
+
+.marks-text .marks {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    background: rgb(73, 73, 174);
+}
+.marks-tillnow {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(73, 73, 174);
+}
+.total-analysis{
+    font-size: 14px;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for tablets and small laptops */
+    .success-container {
+        padding: 3%;
+        margin: 3%;
+        margin-top: 15%;
+    }
+    .success-container .col-md-4.ok {
+        height: auto; /* Reset the height */
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjust styles for mobile phones */
+    .success-container {
+        padding: 2%;
+        margin: 2%;
+        margin-top: 15%;
+    }
+    .success-container .card-text {
+        font-size: 16px;
+    }
+    .obtained-marks {
+        font-size: 18px;
+    }
+    .marks-text .marks {
+        font-size: 24px;
+    }
+    .marks-tillnow {
+        font-size: 12px;
+    }
+    .success-container .col-sm-4.ok {
+        height: auto; /* Reset the height */
+        margin-bottom: 10px;
+    }
+}

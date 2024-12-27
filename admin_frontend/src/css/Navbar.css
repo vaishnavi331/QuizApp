@@ -1,0 +1,106 @@
+ /* Navbar.css */
+
+ .logoimg {
+   width: 50px;
+   height: 35px;
+
+   /* border-radius: 50%; */
+ }
+
+ .navbar-title {
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   font-size: 1.5rem;
+   font-weight: bold;
+   color:  rgb(54, 54, 137);
+ }
+
+ .nav-background {
+   background-color: #cae5f5;
+ }
+
+ .navbar-nav .nav-item .nav-link {
+   color: white;
+ }
+
+ .navbar-nav .nav-item .nav-link:hover {
+   color: white;
+ }
+
+ .nav-link {
+   color: #fff;
+   font-size: 16px;
+   font-weight: 500;
+ }
+
+ .nav-link:hover {
+   color: #fff;
+ }
+
+ .sign-button {
+   /* background-color: rgb(48, 147, 137); */
+   background-color: rgb(54, 54, 137);
+   text-align: center;
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   font-size: 14px;
+   font-weight: 400;
+ }
+
+ .sign-button:hover {
+   text-decoration: none;
+ }
+
+ .user-name {
+   font-size: 1rem;
+   font-weight: 500;
+ }
+
+ .user-info {
+   margin-right: 15px;
+   color: white;
+   font-size: 20px;
+   font-weight: 500;
+ }
+
+ .user-welcome {
+   font-size: 16px;
+   color: white;
+   font-weight: 500;
+ }
+
+
+ @media only screen and (max-width: 768px) {
+   .navbar-toggler {
+     color: white;
+   }
+
+   .navbar-nav .nav-item .nav-link {
+     color: white;
+   }
+
+   .navbar-nav .nav-item .nav-link:hover {
+     color: white;
+   }
+
+   .sign-button {
+     background-color: rgb(54, 54, 137);
+     font-size: 14px;
+     font-weight: 400;
+   }
+
+   .sign-button:hover {
+     text-decoration: none;
+   }
+
+   .user-info {
+     margin-right: 5px;
+     font-size: 18px;
+     font-weight: 500;
+   }
+
+   .user-welcome {
+     font-size: 14px;
+   }
+ }

@@ -1,0 +1,140 @@
+
+
+
+
+/* Common styles for all screen sizes */
+.quiz-background {
+   background-color: rgb(237, 243, 245);
+   height: 100vh;
+ }
+ 
+ .quiz-container {
+   background-color: #fff;
+   margin: 2%;
+ }
+ .quiz-container .row {
+   padding: 3%;
+ }
+ .quiz-title {
+   text-align: center;
+   margin-top: 5%;
+   padding-top: 2%;
+   margin-bottom: 2%;
+ }
+ .questions {
+   margin-bottom: 3%;
+   font-weight: bold;
+ }
+ .savequiz-button {
+   margin-bottom: 3%;
+ }
+ 
+ .option-list {
+   text-decoration: none;
+   list-style: none;
+ }
+ 
+ .secondquiz-column {
+   padding: 1%;
+ }
+ .secondquiz-column .timer-text {
+   text-align: center;
+   font-size: 18px;
+   font-weight: 500;
+   color: #000;
+ }
+ .secondquiz-column .timer-text.red {
+    color: red; 
+ }
+ .numbers {
+   margin-right: 1%;
+   width: 40px;
+   height: 40px;
+   font-size: 17px;
+   align-items: center;
+   font-weight: bold;
+   background-color: #fff;
+   margin: 2%;
+ }
+ 
+ .numbers:hover {
+   background-color: rgb(216, 213, 213);
+   cursor: pointer;
+ }
+ 
+ .question-text {
+   font-size: 17px;
+ }
+ .option-text {
+   font-size: 17px;
+ }
+ 
+ /* Responsive styles */
+ @media only screen and (max-width: 768px) {
+   /* Adjust styles for tablets and small laptops */
+   .quiz-container {
+     margin: 5%;
+   }
+   .secondquiz-column {
+     padding: 5%;
+   }
+   .quiz-title {
+      font-size: 24px;
+      margin-top: 15%;
+    }
+ }
+ 
+ @media only screen and (max-width: 480px) {
+   /* Adjust styles for mobile phones */
+   .quiz-title {
+     font-size: 24px;
+     margin-top: 20%;
+   }
+   .questions,
+   .question-text,
+   .option-text {
+     font-size: 16px;
+   }
+   .savequiz-button {
+     margin-bottom: 5%;
+   }
+   .numbers {
+     width: 40px;
+     height: 40px;
+     font-size: 14px;
+   }
+ }
+ 
+
+
+/* 
+.numbers.answered {
+  background-color: #4caf50; 
+  color: white;
+}
+
+.numbers.unanswered {
+  background-color: #f44336; 
+  color: white;
+}
+.secondquiz-column .checkanswer{
+  text-align: center;
+  list-style: disc;
+}
+.secondquiz-column .checkanswer li{
+  display: inline-block;
+  margin: 0 10px;
+  color: #000;
+} */
+
+
+.quiz-container .section-type{
+  list-style: disc;
+
+}
+
+.quiz-container .section-type li{
+  display: inline-block;
+  margin: 0 10px;
+  margin-top: 10px;
+}

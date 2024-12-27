@@ -1,0 +1,43 @@
+
+
+/* Default styles */
+.dashboard-title {
+    margin-top: 7%;
+    text-align: center;
+  }
+  
+  .dashboard-container {
+    margin: 2%;
+    padding: 3%;
+    background-color: rgb(237, 243, 245);
+  }
+  
+  .dashboard-text {
+    text-align: left;
+  }
+  
+  .start-button {
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    .dashboard-title {
+      font-size: 24px;
+      margin-top: 25%;
+    }
+  
+    .dashboard-container {
+      margin: 5%;
+      padding: 5%;
+    }
+  
+    .dashboard-text {
+      font-size: 16px;
+    }
+  
+    .start-button {
+      margin-top: 20px;
+    }
+  }
+  

@@ -1,0 +1,91 @@
+
+
+/* Default styles */
+.nav-background {
+  background-color: #cae5f5;
+}
+
+.gate-exam {
+  font-size: 25px;
+  color: rgb(18, 15, 21);
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: black;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.sign-button {
+  background-color: rgb(54, 54, 137);
+  text-align: center;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sign-button:hover {
+  text-decoration: none;
+}
+
+.user-info {
+  margin-right: 15px;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.user-welcome {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .navbar-toggler {
+    color: black;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: black;
+  }
+
+  .navbar-nav .nav-item .nav-link:hover {
+    color: black;
+  }
+
+  .sign-button {
+    background-color: rgb(54, 54, 137);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .sign-button:hover {
+    text-decoration: none;
+  }
+
+  .user-info {
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .user-welcome {
+    font-size: 14px;
+  }
+}
